@@ -45,7 +45,7 @@ routerApi(app);
 app.get('/', (req, res) => {
   //Respuesta a la peticion
   res.status(200).json({
-    gawr: 'Hola mi HOME'
+    gawr: 'Deploy exitoso'
   })
 })
 
